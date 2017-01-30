@@ -3,6 +3,7 @@ This is a sample in progress application for learning React with Redux using Imm
 
 ##Run application
 `npm start` - starts webpack dev server with the application
+
 `npm run build` - builds the application.
 
 ##How application works?
