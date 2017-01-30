@@ -1,8 +1,7 @@
-#app-redux-react
-This is a sample in progress application for learning React with Redux using Immutable structures and redux-thunk middleware for asynchronous call.
+#Redux+react playground
+Draft application for learning React with Redux. Using Immutable structures and redux-thunk middleware for asynchronous calls.
 
 ##Run application
-
 `npm start` - starts webpack dev server with the application
 
 `npm run build` - builds the application.
