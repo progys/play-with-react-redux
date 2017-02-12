@@ -3,6 +3,7 @@ Draft application for learning React with Redux. Using Immutable structures and 
 
 ##Run application
 `yarn start` or `npm start` - starts webpack dev server with the application
+
 `yarn build` or `npm run build` - builds the application.
 
 ##How application works?
