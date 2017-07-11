@@ -1,16 +1,16 @@
 
-#Redux+react playground
+# React + Redux playground
 Draft application for learning React with Redux. Using Immutable structures and redux-thunk middleware for asynchronous calls.
 
-##Run application
+## Run application
 `yarn start` or `npm start` - starts webpack dev server with the application
 
 `yarn build` or `npm run build` - builds the application.
 
-##How application works?
+## How application works?
 When a button is pressed application loads list of "funny" posts from Reddit and displays a thumbnail of a random one. It does not cache the posts. All posts are reloaded each time. This will be improved.
 
-##What's next?
+## What's next?
 * Cache posts
 * Add link to original post
 * Add routing and screens (for different topics)
