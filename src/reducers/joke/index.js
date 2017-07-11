@@ -1,6 +1,5 @@
 import Immutable from 'immutable';
 
-const text = 'Hello World!';
 const initialState = Immutable.Map();
 
 const joke = (state = initialState, action) => {
