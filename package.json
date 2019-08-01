@@ -1,11 +1,23 @@
 {
-  "name": "my-app",
+  "name": "playground",
+  "description": "Sample application using Redux and React with Typescript.",
   "version": "0.1.0",
+  "bugs": {
+    "url": "https://github.com/progys/play-with-react-redux/issues"
+  },
+  "homepage": "https://github.com/progys/play-with-react-redux#readme",
   "private": true,
   "dependencies": {
+    "immutable": "^4.0.0-rc.12",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-redux": "^7.1.0",
+    "react-scripts": "3.0.1",
+    "redux": "^4.0.4",
+    "redux-immutable": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "typescript": "^3.5.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +39,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.0.0",
+    "@testing-library/react": "^8.0.7",
+    "@types/jest": "^24.0.16",
+    "@types/node": "^12.6.9",
+    "@types/react": "^16.8.24",
+    "@types/react-dom": "^16.8.5",
+    "@types/react-redux": "^7.1.1",
+    "@types/redux-immutable": "^4.0.1",
+    "@types/redux-logger": "^3.0.7"
   }
 }
