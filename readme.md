@@ -1,19 +1,17 @@
 
 [![Lintly](https://lintly.com/gh/progys/play-with-react-redux/badge.svg)](https://lintly.com/gh/progys/play-with-react-redux/)
 # React + Redux playground
-Draft application for learning React with Redux. Using Immutable structures and redux-thunk middleware for asynchronous calls.
+Draft application for playing around with React, Redux, Typescript. Using Immutable structures and redux-thunk middleware for asynchronous calls.
 
 ## Run application
-`yarn start` or `npm start` - starts webpack dev server with the application
-
-`yarn build` or `npm run build` - builds the application.
-
+`npm start` - starts app
+`npm test` - runs tests
+ 
 ## How application works?
-When a button is pressed application loads list of "funny" posts from Reddit and displays a thumbnail of a random one. It does not cache the posts. All posts are reloaded each time. This will be improved.
+When a button is pressed application loads list of "funny" posts from Reddit and displays a thumbnail of a random one. It does not cache the posts. All posts are reloaded each time.
 
 ## What's next?
-* Cache posts
+* Use RxJS for event handling
+* Use Sagas
 * Add link to original post
-* Add routing and screens (for different topics)
-* Configure dynamic view for topics
 * Update feeds in bacground with service workers
