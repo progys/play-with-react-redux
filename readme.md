@@ -5,6 +5,7 @@ Draft application for playing around with React, Redux, Typescript. Using Immuta
 
 ## Run application
 `npm start` - starts app
+
 `npm test` - runs tests
  
 ## How application works?
