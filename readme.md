@@ -1,5 +1,3 @@
-
-[![Lintly](https://lintly.com/gh/progys/play-with-react-redux/badge.svg)](https://lintly.com/gh/progys/play-with-react-redux/)
 # React + Redux playground
 Draft application for playing around with React, Redux, Typescript. Using Immutable structures and redux-thunk middleware for asynchronous calls.
 
