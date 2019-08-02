@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/progys/play-with-react-redux.svg?branch=master)](https://travis-ci.org/progys/play-with-react-redux)
+
 # React + Redux playground
 Draft application for playing around with React, Redux, Typescript. Using Immutable structures and redux-thunk middleware for asynchronous calls.
 
