@@ -1,12 +1,11 @@
-import Immutable from "immutable";
 import { JokeAction } from "../actions";
 
-const initialState = Immutable.Map();
+const initialState = { url: "", text: "" };
 
 const jokes = (state = initialState, action: JokeAction) => {
   switch (action.type) {
     case "NEW_JOKE":
-      return state.set("url", action.url);
+      return { ...state, url: action.url, text: action.text };
     default:
       return state;
   }
