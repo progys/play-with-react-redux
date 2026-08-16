@@ -4,7 +4,8 @@ import Joke from "./features/jokes/Joke";
 import { loadJoke } from "./actions";
 
 const mapStateToProps = (state: any) => ({
-  url: state.get("jokes").get("url")
+  url: state.jokes.url,
+  text: state.jokes.text
 });
 
 const mapDispatchToProps = (dispatch: Function) => {
@@ -16,14 +17,12 @@ const mapDispatchToProps = (dispatch: Function) => {
 };
 
 type Props = ReturnType<typeof mapStateToProps> &
-  ReturnType<typeof mapDispatchToProps> & {
-    url: string;
-  };
+  ReturnType<typeof mapDispatchToProps>;
 
-const App = ({ url, loadJoke }: Props) => {
+const App = ({ url, text, loadJoke }: Props) => {
   return (
     <div className="container">
-      <Joke url={url} />
+      <Joke url={url} text={text} />
       <button onClick={loadJoke}>Show!</button>
     </div>
   );
