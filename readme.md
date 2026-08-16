@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/progys/play-with-react-redux.svg?branch=master)](https://travis-ci.org/progys/play-with-react-redux)
+[![CI](https://github.com/progys/play-with-react-redux/actions/workflows/ci.yml/badge.svg)](https://github.com/progys/play-with-react-redux/actions/workflows/ci.yml)
 
 # React + Redux playground
 Draft application for playing around with React, Redux, Typescript. Using redux-thunk middleware for asynchronous calls.
