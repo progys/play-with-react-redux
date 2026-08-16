@@ -4,11 +4,11 @@ export default defineConfig({
   testDir: "./e2e",
   timeout: 30000,
   webServer: {
-    command: "npm start",
-    port: 3000,
+    command: "npm run dev",
+    port: 5173,
     reuseExistingServer: !process.env.CI,
   },
   use: {
-    baseURL: "http://localhost:3000",
+    baseURL: "http://localhost:5173",
   },
 });

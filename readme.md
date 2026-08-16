@@ -7,9 +7,13 @@ Draft application for playing around with React, Redux, Typescript. Using redux-
 - Node.js >= 22 (see `.nvmrc`)
 
 ## Run application
-`npm start` - starts app
+`npm run dev` - starts dev server
 
-`npm test` - runs unit tests
+`npm run build` - creates production build
+
+`npm run preview` - previews production build
+
+`npm test` - runs unit tests (Vitest)
 
 `npm run test:e2e` - runs end-to-end tests (Playwright)
 

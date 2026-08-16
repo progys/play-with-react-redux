@@ -1,9 +1,10 @@
 import React from "react";
 import { render, fireEvent, screen } from "@testing-library/react";
+import { vi, describe, it, beforeEach, expect } from "vitest";
 import App from "./AppContainer";
 
 beforeEach(() => {
-  jest.restoreAllMocks();
+  vi.restoreAllMocks();
 });
 
 it("renders without crashing", () => {
@@ -19,7 +20,7 @@ it("renders content", () => {
 it("loads image after clicking Show", async () => {
   const fakeUrl = "https://example.com/fake-thumbnail.jpg";
   const fakeText = "Chuck Norris can divide by zero.";
-  jest.spyOn(global, "fetch").mockResolvedValue({
+  vi.spyOn(global, "fetch").mockResolvedValue({
     json: async () => ({
       icon_url: fakeUrl,
       value: fakeText
